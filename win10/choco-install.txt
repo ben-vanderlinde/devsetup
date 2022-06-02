@@ -1,0 +1,23 @@
+Enable-WindowsOptionalFeature -Online -FeatureName (Get-Content iis-features.txt) -NoRestart -All
+
+
+
+choco install git -y
+choco install vscode -y
+choco install visualstudio2022enterprise -y
+choco install visualstudio2022-workload-netweb -y
+choco install visualstudio2022-workload-manageddesktopbuildtools -y
+choco install visualstudio2022-workload-nativedesktop -y
+
+choco install powershell-core -y
+choco install googlechrome -y
+choco install dotnetcore-3.1-sdk -y
+choco install dotnetcore-3.0-sdk -y
+choco install dotnetcore-2.2-sdk -y
+choco install dotnetcore-2.1-sdk -y
+choco install dotnetcore-2.0-sdk -y
+choco install dotnet-5.0-sdk -y
+choco install dotnet-6.0-sdk -y
+choco install dotnet-6.0-windowshosting -y
+
+
